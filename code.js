@@ -1,3 +1,5 @@
+//updated from code in the binary-search-22dcolli repository, really the only difference is shorten middle syntax to mid and realized I didn't need the let middle on line 7
+//same credit as before goes to replit ai IDE for help with Math.floor
 function binarySearch(list, element) {
 
     let first = 0;
