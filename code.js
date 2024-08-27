@@ -1,5 +1,3 @@
-//updated code(binary-search-22dcolli) from last semester, simplified because I noticed I could exclude the old variable "index" alltogether.
-//credit to replit ai IDE as before
 function binarySearch(list, element) {
 
     let first = 0;
