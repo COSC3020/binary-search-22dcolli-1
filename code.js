@@ -2,7 +2,7 @@ function binarySearch(list, element) {
 
     let first = 0;
     let last = list.length - 1;
-
+    
 
     while (first <= last)
     {
@@ -14,9 +14,10 @@ function binarySearch(list, element) {
             {
                 if(list[i] == element)
                 {
-                    return i
+                    let found = i
                 }
             }
+            return found;
         }
         else
         {
