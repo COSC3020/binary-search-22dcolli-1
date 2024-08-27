@@ -2,7 +2,7 @@ function binarySearch(list, element) {
 
     let first = 0;
     let last = list.length - 1;
-    
+
 
     while (first <= last)
     {
