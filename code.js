@@ -10,12 +10,12 @@ function binarySearch(list, element) {
 
         if (list[mid] == element)
         {
-            let index;
+            
             for(let i = mid;list[i] == element; i--)
             {
                 if(list[i] == element)
                 {
-                    index = i
+                     let index = i
                 }
             }
             return index;
